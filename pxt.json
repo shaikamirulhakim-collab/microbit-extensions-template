@@ -1,0 +1,34 @@
+{
+    "name": "Microbit Extensions Template",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "sugar": "github:kittenbot/pxt-sugar#v0.4.14",
+        "servo": "*",
+        "audio-recording": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "CO2-Sensor-SCD40": "github:calliope-edu/Co2-sensor-SCD40#073d0f0a361c4ddf1318fec92c7472511515a37b",
+        "SSD1306_OLED": "github:pisupply/pxt-oled-ssd1306#v1.2.3",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
